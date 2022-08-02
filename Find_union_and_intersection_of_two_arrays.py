@@ -3,8 +3,6 @@
 def unionarray(arr1,arr2):
     #with the use of built in extend method we have combined both the arrays
     # alternatively we can append each element into another array 
-    print("Before extension")
-    print('Array1: ',arr1)
     arr1.extend(arr2)
     print("After extension")
     print(arr1)
